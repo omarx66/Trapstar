@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accesorios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Urbanist', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    nav.navbar {
+      background-color: #000;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .btn-outline-success {
+      border: 1px solid #fff;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .btn-outline-success:hover {
+      background-color: #fff;
+      color: #000 !important;
+    }
+
+    h1 {
+      font-weight: 700;
+      margin: 40px 0;
+    }
+
+    .card {
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      border: none;
+      border-radius: 15px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+    }
+
+    .card-img-top {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      background-color: #111;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .card-text {
+      color: #aaa;
+    }
+
+    .text-danger {
+      font-size: 1.1rem;
+      color: #ffc107;
+    }
+
+    @media (max-width: 767px) {
+      .card-img-top {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">TRAPSTAR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="sneakers.html">Sneakers</a></li>
+          <li class="nav-item"><a class="nav-link" href="ropa.html">Ropa</a></li>
+          <li class="nav-item"><a class="nav-link" href="promociones.html">Promociones</a></li>
+          <li class="nav-item active"><a class="nav-link" href="accesorios.html">Accesorios</a></li>
+          <li class="nav-item"><a class="nav-link" href="pedidos.html">Pedidos</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 bg-dark text-white border-white" type="search" placeholder="Buscar" />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO -->
+  <div class="container my-5">
+    <h1 class="text-center">Accesorios</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/accesorio1.jpg" class="card-img-top" alt="Gorra New Era">
+          <div class="card-body">
+            <h5 class="card-title">Gorra New Era</h5>
+            <p class="card-text">Estilo urbano con máxima comodidad.</p>
+            <p class="text-danger">$950</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/accesorio2.jpg" class="card-img-top" alt="Cinturón Y2K">
+          <div class="card-body">
+            <h5 class="card-title">Cinturón Y2K</h5>
+            <p class="card-text">Retro y moderno a la vez.</p>
+            <p class="text-danger">$299</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/accesorio3.jpg" class="card-img-top" alt="Lentes Vintage">
+          <div class="card-body">
+            <h5 class="card-title">Lentes Vintage</h5>
+            <p class="card-text">Para un look clásico y auténtico.</p>
+            <p class="text-danger">$250</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/accesorio4.jpg" class="card-img-top" alt="Bolsa Trapstar">
+          <div class="card-body">
+            <h5 class="card-title">Bolsa Trapstar</h5>
+            <p class="card-text">Diseño exclusivo y espacioso.</p>
+            <p class="text-danger">$2500</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/accesorio5.jpg" class="card-img-top" alt="Cadena Cubana">
+          <div class="card-body">
+            <h5 class="card-title">Cadena Cubana</h5>
+            <p class="card-text">Brilla con estilo y presencia.</p>
+            <p class="text-danger">$2999</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
